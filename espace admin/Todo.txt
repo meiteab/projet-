@@ -1,0 +1,84 @@
+==========================================================================
+FONCTIONNALITES COTE CLIENT
+
+1 - Tout les fichiers doivent être inclut dans notre livrable
+
+2- Le livrable doit contenir un fichier README
+
+3- Le code doit être ne POO
+
+4- Une page principale index.php accessible à tous
+
+5- Une page admin.php accessible aux admins(Connexion obligatoire)
+
+6- Une page signup.php avec un formulaire d'enregistrement
+
+7- Une page signin.php avec un formulaire de Connexion
+
+8- Enregistrer l'utilisateur dans la DB avec (username,email, password)
+
+9- Pour la sécurité, demander à l'utilisateur un mot de passe fort( 8 caractères min) et crypter ce mot de passe
+
+10- Rediriger l'utilisateur vers la page admin.php si ses identifiants sont correctes
+
+11- Les erreurs de Connexion doit être explicit (if email exists etc...)
+
+12- Ajout du boutton logout dans notre index.php (cookies)
+==========================================================================
+
+
+
+
+
+===========================================================================
+FONCTIONNALITES COTE ADMINISTRATION
+
+1- Tout les administrateurs ont leurs droit definit dans la base de donnees
+
+2- L'admin puet tout sur les users et les produit
+
+3- Les produits doivent avoir les attributs suivant: name, description, price, une image
+
+4- On doit gerer les erreurs du CRUD sur les produits et les users
+
+5- Seuls les admins peuvent voir ses differentes pages
+===========================================================================
+
+
+
+
+
+==================================================================================
+FONCTIONNALITES SHOP
+
+1- Tout les produits doivent afficher sur notre page index.php
+
+2- Notre application doit être fluide à l'utilisateur
+
+3- Le site doit être responsive
+
+4- Verifier le temps de chargement
+==================================================================================
+
+
+
+==============================================================================
+FONCTIONNALITES CATEGORIE
+
+1- L'admin doit pouvoir ajouter une categorie de produit à partir de son interface
+
+2- Une categorie peut contenir d'autre categorie et produits(pas de limite)
+
+3- Les relations en SQL
+==============================================================================
+
+
+
+
+===============================================================================
+FONCTIONNALITES SEARCH BAR
+
+1- On doit pouvoir rechercher un produit par categorie, nom, prix et les afficher
+
+2- Les recherches peuvent se faire par intervalle, ect....
+===============================================================================
